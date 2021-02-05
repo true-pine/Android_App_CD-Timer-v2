@@ -33,7 +33,6 @@ import java.util.Iterator;
 public class SplashActivity extends AppCompatActivity {
 
     private Handler handler;
-    private ArrayList<String> championsName;
     private CustomProgressDialog dialog;
     private MyApplication mApp;
 
@@ -162,7 +161,6 @@ public class SplashActivity extends AppCompatActivity {
     }
 
     private void initializeVariable() {
-        championsName = new ArrayList<>();
         mApp = (MyApplication) getApplication();
         handler = new Handler(new Handler.Callback() {
             @Override
@@ -172,24 +170,5 @@ public class SplashActivity extends AppCompatActivity {
                 return true;
             }
         });
-    }
-
-    private byte[] inputStreamToByteArray(InputStream is) {
-        byte[] resBytes = null;
-        ByteArrayOutputStream bos = new ByteArrayOutputStream();
-
-        byte[] buffer = new byte[1024];
-        int read = -1;
-        try {
-            while((read = is.read(buffer)) != -1) {
-                bos.write(buffer, 0, read);
-            }
-
-            resBytes = bos.toByteArray();
-            bos.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return resBytes;
     }
 }
