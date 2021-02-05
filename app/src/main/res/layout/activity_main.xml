@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <com.capston.cd_timer_v2.DragLinearLayout
+        android:id="@+id/dragLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/mainActivity_iv_skill1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClickImageView"
+                app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+            <ImageView
+                android:id="@+id/mainActivity_iv_spell1_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClickImageView"
+                app:srcCompat="@android:drawable/sym_def_app_icon"/>
+
+            <ImageView
+                android:id="@+id/mainActivity_iv_spell1_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClickImageView"
+                app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/ic_unfold_more_black_24dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/mainActivity_iv_skill2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClickImageView"
+                app:srcCompat="@android:drawable/sym_def_app_icon"/>
+
+            <ImageView
+                android:id="@+id/mainActivity_iv_spell2_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClickImageView"
+                app:srcCompat="@android:drawable/sym_def_app_icon"/>
+
+            <ImageView
+                android:id="@+id/mainActivity_iv_spell2_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClickImageView"
+                app:srcCompat="@android:drawable/sym_def_app_icon"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/ic_unfold_more_black_24dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/mainActivity_iv_skill3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClickImageView"
+                app:srcCompat="@android:drawable/sym_def_app_icon"/>
+
+            <ImageView
+                android:id="@+id/mainActivity_iv_spell3_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClickImageView"
+                app:srcCompat="@android:drawable/sym_def_app_icon"/>
+
+            <ImageView
+                android:id="@+id/mainActivity_iv_spell3_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClickImageView"
+                app:srcCompat="@android:drawable/sym_def_app_icon"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/ic_unfold_more_black_24dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/mainActivity_iv_skill4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClickImageView"
+                app:srcCompat="@android:drawable/sym_def_app_icon"/>
+
+            <ImageView
+                android:id="@+id/mainActivity_iv_spell4_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClickImageView"
+                app:srcCompat="@android:drawable/sym_def_app_icon"/>
+
+            <ImageView
+                android:id="@+id/mainActivity_iv_spell4_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClickImageView"
+                app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/ic_unfold_more_black_24dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/mainActivity_iv_skill5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClickImageView"
+                app:srcCompat="@android:drawable/sym_def_app_icon"/>
+
+            <ImageView
+                android:id="@+id/mainActivity_iv_spell5_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClickImageView"
+                app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+            <ImageView
+                android:id="@+id/mainActivity_iv_spell5_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClickImageView"
+                app:srcCompat="@android:drawable/sym_def_app_icon"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/ic_unfold_more_black_24dp"/>
+
+        </LinearLayout>
+    </com.capston.cd_timer_v2.DragLinearLayout>
+
+</RelativeLayout>

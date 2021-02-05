@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CD-Timer-v2</string>
+    <string name="API_KEY">"RGAPI-d1c61418-e40a-45af-8c7f-5db54b73f489"</string>
+    <string name="DATA_DRAGON">"http://ddragon.leagueoflegends.com/cdn/11.3.1"</string>
+</resources>
