@@ -116,8 +116,4 @@ public class MainActivity extends AppCompatActivity {
         }
         return true;
     }
-
-    public void onClickImageView(View view) {
-        Toast.makeText(myApp, "클릭되었다", Toast.LENGTH_SHORT).show();
-    }
 }
