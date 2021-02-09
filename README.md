@@ -1,4 +1,5 @@
 # CD-Timer-v2 - 리그오브레전드 챔피언 궁극기 및 소환사주문 재사용대기시간을 확인하는 어플
+![preview](https://true-pine.github.io/Android_App_CD-Timer-v2/preview.webp)
 ### 1. 개발배경  
 언제쿨도냐 어플을 조금 더 편리하게 사용할 수 있도록 RiotAPI를 접목시키기 위해서 개발
 ### 2. 주요기능  
