@@ -11,4 +11,4 @@
 - OpenAPI를 위해 별도의 thread와 thread 완료 후 작업할 handler를 구현
 - OpenAPI로 전달받은 Json 데이터를 파싱하여 필요한 데이터를 추출하여 저장
 - Toolbar의 optionMenu 추가 및 기능 구현
-- 오픈소스를 프로젝트로 가져와 필요한 기능을 추가
+- DragLinearLayout 오픈소스를 프로젝트로 가져와 필요한 기능을 커스터마이징
